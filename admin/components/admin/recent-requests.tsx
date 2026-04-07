@@ -102,14 +102,7 @@ export default function RecentRequests() {
     <div className="p-4 md:p-6">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4 md:mb-6">
         <h3 className="text-base md:text-lg font-bold text-gray-900">Recent Requests</h3>
-        <Button
-          variant="ghost"
-          size="sm"
-          className="gap-2 text-blue-600 hover:text-blue-700 hover:bg-blue-50 self-start sm:self-auto"
-        >
-          View All
-          <ArrowRight size={16} />
-        </Button>
+        
       </div>
 
       <div className="space-y-2 md:space-y-3">
@@ -137,13 +130,7 @@ export default function RecentRequests() {
                 </span>
               </div>
             </div>
-            <Button
-              variant="outline"
-              size="sm"
-              className="whitespace-nowrap text-xs self-start sm:self-auto"
-            >
-              View
-            </Button>
+           
           </div>
         ))}
       </div>
