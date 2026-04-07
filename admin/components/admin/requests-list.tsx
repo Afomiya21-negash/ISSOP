@@ -250,21 +250,7 @@ export default function RequestsList({ onSelectRequest }: RequestsListProps) {
               </div>
             </div>
 
-            <div className="space-y-2">
-              <label className="text-sm font-medium text-slate-700">Actions</label>
-              <Button
-                variant="outline"
-                className="w-full gap-2"
-                onClick={() => {
-                  setSearchTerm('')
-                  setStatusFilter('all')
-                  setPriorityFilter('all')
-                }}
-              >
-                <Filter size={16} />
-                Reset Filters
-              </Button>
-            </div>
+            
           </div>
         </div>
       </div>
